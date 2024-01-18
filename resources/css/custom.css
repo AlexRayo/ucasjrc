@@ -40,3 +40,9 @@ article > *:not(.entry-content),
         }
     }
 }
+header ul li a{
+    @apply hover:text-green-900 hover:bg-green-100 py-2 px-4 rounded-md transition-colors duration-300
+}
+.custom-logo {
+    @apply max-h-20 w-auto
+}

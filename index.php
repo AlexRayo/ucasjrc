@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 
-<section class="md:container my-12 xl:my-20 mx-auto">
-	<h2 class="text-5xl text-slate-900 text-center font-bold mb-8 mx-auto">Promoviendo el desarrollo productivo
+<section class="container my-12 xl:my-20 mx-auto">
+	<h2 class="text-4xl md:text-5xl font-extrabold text-slate-900 md:text-center mb-8 mx-auto">Promoviendo el desarrollo
+		productivo
 		local</h2>
 	<div class="mx-auto grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3 xl:gap-8">
 		<?php
@@ -41,7 +42,7 @@ if ($query->have_posts()):
 
 			<div class="w-full h-full px-4 py-8 md:p-8 bg-slate-900 flex items-center justify-center">
 				<div class="">
-					<h1 class="text-3xl lg:text-6xl tracking-tight font-extrabold text-slate-100 mb-6">
+					<h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-100 mb-6">
 						<?php the_title(); ?>
 					</h1>
 					<p class="text-slate-100 text-xl font-medium mb-6">
@@ -82,7 +83,7 @@ else: ?>
 
 				<div class="w-full h-full md:w-6/12 p-4 md:p-8 flex items-center justify-center">
 					<div class="">
-						<h1 class="text-3xl lg:text-6xl tracking-tight font-extrabold text-slate-900 mb-6">
+						<h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 mb-6">
 							<?php the_title(); ?>
 						</h1>
 						<p class="text-slate-900 text-xl font-medium mb-10">

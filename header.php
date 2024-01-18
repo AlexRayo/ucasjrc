@@ -21,7 +21,7 @@
 		<header>
 
 			<div class="mx-auto container">
-				<div class="lg:flex lg:justify-between lg:items-center border-b py-6">
+				<div class="lg:flex lg:justify-between lg:items-center border-b md:py-2">
 					<div class="flex justify-between items-center">
 						<div>
 							<?php if (has_custom_logo()) { ?>
@@ -58,10 +58,10 @@
 					wp_nav_menu(
 						array(
 							'container_id' => 'primary-menu',
-							'container_class' => 'hidden bg-gray-100 mt-4 p-4 lg:mt-0 lg:p-0 lg:bg-transparent lg:block',
-							'menu_class' => 'lg:flex lg:-mx-4',
+							'container_class' => 'hidden bg-gray-100 rounded-md mt-4 p-4 lg:mt-0 lg:p-0 lg:bg-transparent lg:block',
+							'menu_class' => 'lg:flex lg:-mx-2',
 							'theme_location' => 'primary',
-							'li_class' => 'lg:mx-4',
+							'li_class' => 'my-4 lg:my-0 lg:mx-2',
 							'fallback_cb' => false,
 						)
 					);
@@ -90,7 +90,7 @@
 
 								<div
 									class="mx-auto max-w-screen-md my-12 py-12 px-8 rounded-md bg-slate-100 min-h-96 bg-opacity-85 backdrop-blur-[2px]">
-									<h1 class="text-3xl lg:text-6xl tracking-tight font-extrabold text-slate-900 mb-6">
+									<h1 class="text-4xl md:text-5xl lg:text-6xl tracking-tight font-extrabold text-slate-900 mb-6">
 										<?php the_title(); ?>
 									</h1>
 									<p class="text-gray-600 text-xl font-medium mb-10">
