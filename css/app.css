@@ -567,17 +567,13 @@ video {
     margin-top: 0.75rem;
     margin-bottom: 0.75rem
 }
-.my-8{
-    margin-top: 2rem;
-    margin-bottom: 2rem
-}
-.my-2{
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem
-}
 .my-4{
     margin-top: 1rem;
     margin-bottom: 1rem
+}
+.my-8{
+    margin-top: 2rem;
+    margin-bottom: 2rem
 }
 .mb-1{
     margin-bottom: 0.25rem
@@ -599,6 +595,9 @@ video {
 }
 .mt-4{
     margin-top: 1rem
+}
+.mt-8{
+    margin-top: 2rem
 }
 .inline-block{
     display: inline-block
@@ -623,6 +622,15 @@ video {
 }
 .h-full{
     height: 100%
+}
+.h-96{
+    height: 24rem
+}
+.h-auto{
+    height: auto
+}
+.h-72{
+    height: 18rem
 }
 .max-h-20{
     max-height: 5rem
@@ -686,6 +694,9 @@ video {
 }
 .gap-4{
     gap: 1rem
+}
+.gap-8{
+    gap: 2rem
 }
 .overflow-hidden{
     overflow: hidden
@@ -804,9 +815,9 @@ video {
     font-size: 1.5rem;
     line-height: 2rem
 }
-.text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem
+.text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem
 }
 .text-5xl{
     font-size: 3rem;
@@ -823,9 +834,9 @@ video {
 .text-xl{
     font-size: 1.25rem
 }
-.text-4xl{
-    font-size: 2.25rem;
-    line-height: 2.5rem
+.text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem
 }
 .font-bold{
     font-weight: 700
@@ -841,9 +852,6 @@ video {
 }
 .font-semibold{
     font-weight: 600
-}
-.font-black{
-    font-weight: 900
 }
 .uppercase{
     text-transform: uppercase
@@ -1145,6 +1153,10 @@ header ul li a:hover{
     .sm\:grid-cols-2{
         grid-template-columns: repeat(2, minmax(0, 1fr))
     }
+
+    .sm\:grid-cols-3{
+        grid-template-columns: repeat(3, minmax(0, 1fr))
+    }
 }
 @media (min-width: 782px){
 
@@ -1153,9 +1165,8 @@ header ul li a:hover{
         margin-bottom: 1.5rem
     }
 
-    .md\:my-0{
-        margin-top: 0px;
-        margin-bottom: 0px
+    .md\:mt-8{
+        margin-top: 2rem
     }
 
     .md\:flex{
@@ -1172,6 +1183,10 @@ header ul li a:hover{
 
     .md\:w-6\/12{
         width: 50%
+    }
+
+    .md\:flex-row{
+        flex-direction: row
     }
 
     .md\:rounded-md{
@@ -1208,21 +1223,6 @@ header ul li a:hover{
 }
 @media (min-width: 960px){
 
-    .lg\:-mx-4{
-        margin-left: -1rem;
-        margin-right: -1rem
-    }
-
-    .lg\:mx-4{
-        margin-left: 1rem;
-        margin-right: 1rem
-    }
-
-    .lg\:my-24{
-        margin-top: 6rem;
-        margin-bottom: 6rem
-    }
-
     .lg\:-mx-2{
         margin-left: -0.5rem;
         margin-right: -0.5rem
@@ -1236,6 +1236,11 @@ header ul li a:hover{
     .lg\:my-0{
         margin-top: 0px;
         margin-bottom: 0px
+    }
+
+    .lg\:my-24{
+        margin-top: 6rem;
+        margin-bottom: 6rem
     }
 
     .lg\:mt-0{
@@ -1282,11 +1287,6 @@ header ul li a:hover{
     .lg\:text-6xl{
         font-size: 3.75rem;
         line-height: 1
-    }
-
-    .lg\:text-4xl{
-        font-size: 2.25rem;
-        line-height: 2.5rem
     }
 }
 @media (min-width: 1280px){
