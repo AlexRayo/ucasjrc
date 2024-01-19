@@ -101,7 +101,7 @@
 										somos</a>
 								</div>
 
-								<div class="absolute w-full h-full border top-0 left-0 -z-10 bg-fixed"
+								<div class="absolute w-full h-full border top-0 left-0 -z-10 bg-fixed bg-no-repeat bg-cover"
 									style="background-image: url('<?php echo get_the_post_thumbnail_url(); ?>');"></div>
 							</div>
 
